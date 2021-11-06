@@ -1,4 +1,7 @@
 import random
+import time
+
+start_time = time.time()
 
 print("welcome to this game")
 a = int(input("enter the first number of range: "))
@@ -15,6 +18,8 @@ while(True):
         print("enter bigger number")
     else:
         print("enter lower number")
+end_time = time.time()
 
+print("your game takes %.2f second(s)" %(end_time - start_time))
 
 
