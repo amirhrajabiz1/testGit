@@ -25,5 +25,5 @@ end_time = time.time()
 t = end_time - start_time
 print("your game takes %.2f second(s)" %(t))
 
-score = (b * 2) / (t * 3 + step * 4)
+score = ((b-a) * 4) / (t * 3 + step * 4)
 print("your score is: %.2f" %score)
