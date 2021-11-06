@@ -1,8 +1,10 @@
 import random
 
 print("welcome to this game")
-n = random.randint(1, 30)
-print("I choose a number between 1 to 30")
+a = int(input("enter the first number of range: "))
+b = int(input("enter the second number of range: "))
+n = random.randint(a, b)
+print("I choose a number between", a, "to", b)
 
 while(True):
     g = int(input("guess: "))
